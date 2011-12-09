@@ -1,5 +1,5 @@
 module Html5
-  module Rails
+  module SlimRails
     module BoilerplateHelper
 
       # Create a named haml tag to wrap IE conditional around a block

@@ -1,10 +1,10 @@
 module Html5
-  module Rails
+  module SlimRails
     class Engine < ::Rails::Engine
 
       # Extend application_helper
-      initializer 'html5_rails_engine.helper' do |app|
-        ActionController::Base.helper(Html5::Rails::BoilerplateHelper)
+      initializer 'html5_slim_rails_engine.helper' do |app|
+        ActionController::Base.helper(Html5::SlimRails::BoilerplateHelper)
       end
 
       # Extend application_controller

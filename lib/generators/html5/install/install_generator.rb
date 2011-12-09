@@ -10,10 +10,6 @@ module Html5
       #   end
       # end
 
-      def copy_config
-        copy_file "compass.rb", "config/compass.rb"
-      end
-
       def show_readme
         readme "README" if behavior == :invoke
       end

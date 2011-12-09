@@ -7,6 +7,6 @@ class InstallGeneratorTest < Rails::Generators::TestCase
 
   test "Assert config file is generated" do
     run_generator
-    assert_file "config/compass.rb"
+    assert_no_file "config/compass.rb"
   end
 end

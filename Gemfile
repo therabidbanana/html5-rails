@@ -2,7 +2,7 @@ source 'http://rubygems.org'
 
 gemspec
 
-gem 'rails', '3.1.0.rc5'
+gem 'rails', '3.1.3'
 
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
@@ -16,8 +16,6 @@ group :assets do
   gem 'sass-rails', '~> 3.1.0.rc'
   gem 'coffee-rails', '~> 3.1.0.rc'
   gem 'uglifier'
-  gem 'compass', :git => 'https://github.com/chriseppstein/compass.git', :branch => 'rails31'
-  gem 'compass-html5', :git => 'git://github.com/sporkd/compass-html5.git'
 end
 
 gem 'jquery-rails'
@@ -32,7 +30,7 @@ gem 'jquery-rails'
 # gem 'ruby-debug19', :require => 'ruby-debug'
 
 gem 'capybara'
-gem 'haml', :git => 'git://github.com/nex3/haml.git'
+gem 'slim'
 
 group :test do
   # Pretty printed test output
