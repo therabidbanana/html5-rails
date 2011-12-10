@@ -11,6 +11,10 @@ module Html5
         directory "assets", "app/assets"
       end
 
+      def copy_extras
+        directory "public", "public"
+      end
+
       def show_readme
         readme "README" if behavior == :invoke
       end
